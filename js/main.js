@@ -15,7 +15,6 @@
 			// Display the result
 			$('#dice-1').css("display", "block");
 			$('#dice-2').css("display", "block");
-
 			$('#dice-1').attr("src", 'image/dice-' + dice1 + '.png');
 			$('#dice-2').attr("src", 'image/dice-' + dice2 + '.png');
 
@@ -28,7 +27,6 @@
 				$('#current-' + activePlayer).html(roundScore);
 			}
 		}
-
 	}
 
 	function holdGame() {
@@ -85,4 +83,5 @@
 		$('#name-0').html('Player-1');
 		$('#name-1').html('Player-2');
 	}
+	
 }());

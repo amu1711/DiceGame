@@ -6,11 +6,13 @@
     <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
     <link type="text/css" rel="stylesheet" href="css/style.css">
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <title>Pig Game</title>
+    <title>Dice Game</title>
 </head>
 
 <body>
     <div class="wrapper clearfix">
+
+        <!-- Player 1 -->
         <div class="player-0-panel">
             <div class="player-name" id="name-0">Player 1</div>
             <div class="player-score" id="score-0">43</div>
@@ -20,6 +22,7 @@
             </div>
         </div>
 
+        <!-- Player 2 -->
         <div class="player-1-panel">
             <div class="player-name" id="name-1">Player 2</div>
             <div class="player-score" id="score-1">72</div>
@@ -29,15 +32,18 @@
             </div>
         </div>
 
+        <!-- Buttons -->
         <button class="btn-new"><i class="ion-ios-plus-outline"></i>New game</button>
         <button class="btn-roll"><i class="ion-ios-loop"></i>Roll dice</button>
         <button class="btn-hold"><i class="ion-ios-download-outline"></i>Hold</button>
 
+        <!-- Dice Images -->
         <img src="image/dice-5.png" alt="Dice" class="dice" id="dice-1">
         <img src="image/dice-5.png" alt="Dice" class="dice" id="dice-2">
+
+        <!-- Input - Final score -->
         <input type="text" placeholder=Final-score class="final-score">
     </div>
 
-    <!-- <script src="app.js"></script> -->
     <script src="js/main.js"></script>
 </body>
